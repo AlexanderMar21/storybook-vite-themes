@@ -10,7 +10,7 @@ const createStyleTags = (url) => {
       if (!this.styleTag) {
         this.styleTag = document.createElement('style');
         this.styleTag.type = 'text/css';
-        this.innerStyles = (await import(url)).default;
+        this.innerStyles = (await import(/* @vite-ignore */url)).default;
         this.styleTag.innerHTML = this.innerStyles;
         document.body.appendChild(this.styleTag);
         return;
