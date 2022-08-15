@@ -1,0 +1,10 @@
+.it-btn {
+   background-color: pink;
+   color: white;
+   border-radius: 0px;
+   transition: all ease 300ms;
+
+   &:hover {
+      background-color: indigo;
+   }
+}

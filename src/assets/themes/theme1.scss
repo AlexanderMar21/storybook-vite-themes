@@ -1,0 +1,10 @@
+.it-btn {
+   background-color: red;
+   color: white;
+   border-radius:10px;
+   transition: all ease 300ms;
+
+   &:hover {
+      background-color: blue;
+   }
+}
